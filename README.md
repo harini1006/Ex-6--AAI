@@ -1,24 +1,31 @@
-<H3>NAME: HARINI V</H3>
+<H3>NAME:HARINI V</H3>
 <H3>REGISTER NO:212222230044</H3>
-<H3>EX. NO.6</H3>
+<H3>EX.NO:6</H3>
 <H3>DATE:</H3>
-<H1 ALIGN =CENTER>Implementation of Semantic ANalysis</H1>
-<H3>Aim: 
- To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques. </H3> 
- <BR>
-<h3>Algorithm:</h3>
-Step 1: Import the nltk library.<br>
-Step 2: Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.<br>
-Step 3:Accept user input for the text.<br>
-Step 4:Tokenize the input text into words using the word_tokenize function.<br>
-Step 5:Iterate through each word in the tokenized text.<br>
-•	Perform part-of-speech tagging on the tokenized words using nltk.pos_tag.<br>
-•	Print each word along with its corresponding part-of-speech tag.<br>
-•	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
-•	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
+<H1 ALIGN =CENTER>Implementation of Semantic Analysis</H1>
+
+## AIM:
+To perform Parts of speech identification and Synonym using Natural Language Processing (NLP) techniques.
+ 
+## ALGORITHM:
+### STEP 1:
+Import the nltk library.
+### STEP 2:
+Download the 'punkt', 'wordnet', and 'averaged_perceptron_tagger' resources.
+### STEP 3:
+Accept user input for the text.
+### STEP 4:
+Tokenize the input text into words using the word_tokenize function.
+### STEP 5:
+Iterate through each word in the tokenized text.
+•	Perform part-of-speech tagging on the tokenized words using nltk.pos_tag.
+•	Print each word along with its corresponding part-of-speech tag.
+•	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).
+•	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.
 •	Print the unique sets of synonyms and antonyms.
-<H3>Program:</H3>
-```PY
+
+## PROGRAM:
+```py
 !pip install nltk
 
 import nltk
@@ -76,15 +83,15 @@ for sentence in sentences:
     print()
   print("\n\n")
   i+=1
-  ```
-<H3>Output</H3>
+```
 
-![image](https://github.com/user-attachments/assets/a7f004cd-d076-4e36-a5d0-7d1d6d3fa6e7)
+## OUTPUT:
+### PARTS OF SPEECH:
+![image](https://github.com/user-attachments/assets/41216163-157c-4059-a32b-dc2367fa70bd)
+
+### SYNONYMS AND ANTONYMS:
+![image](https://github.com/user-attachments/assets/aa471c25-f7a1-4833-be9a-d2e177af622b)
 
 
-
-![image](https://github.com/user-attachments/assets/ca43860b-1158-40e0-b7b8-fc5e0aeb019c)
-
-
-<H3>Result:</H3>
-Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
+## RESULT:
+Thus, the program to perform the Parts of Speech identification and Synonyms executed successfully.
