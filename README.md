@@ -78,10 +78,10 @@ for sentence in sentences:
   i+=1
   ```
 <H3>Output</H3>
-PARTS OF SPEECH:
+
 ![image](https://github.com/user-attachments/assets/a7f004cd-d076-4e36-a5d0-7d1d6d3fa6e7)
 
-SYNONYMS AND ANTONYMS:
+
 
 ![image](https://github.com/user-attachments/assets/ca43860b-1158-40e0-b7b8-fc5e0aeb019c)
 
